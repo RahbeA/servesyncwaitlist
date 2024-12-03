@@ -1,1 +1,634 @@
-<h1>hello world</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+        <script src="https://unpkg.com/typeit@8.5.5/dist/index.umd.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://kit.fontawesome.com/ba7993d3b9.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <title>ServeSync Waitlist</title>
+        <link rel="icon" type="image/png" href="main/logo.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      </head>
+<body>
+    <nav>
+        <!-- Checkbox for toggling menu -->
+        <input type="checkbox" id="check">
+        <!-- Menu icon -->
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <!-- Site logo -->
+        <label class="logo">ServeSync</label>
+        <!-- Navigation links -->
+        <ul>
+          <span class="navpart"><li><a href="#volunteering"><p class="p">About</p></a></li>
+          <li><a href="#tutorial"><p class="p">Tutorial</p></a></li>
+          <li><a href="#faq"><p class="p">FAQ</p></a></li></span>
+          <li><a href="#signnn" style="padding: 10px 10px; border: solid white 1px;">Sign Up</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hero Section -->
+    <section id="hero">
+        <h1 style="margin-top: 50px;">ServeSync</h1>
+        <p>Our software connects students to <span>volunteering opportunities,</span> <br>making it easy to give back and get involved.</p>
+        <button id="sign-up" style="font-weight: 800;" onclick="scrollToSection('signnn')">Sign Up</button>
+    </section>
+
+    <!-- Volunteering Section -->
+    <section id="volunteering">
+        <h2 style="margin-top: 50px;">Volunteering Made <span class="auto-type"></span></h2><br>
+        <center><p style="margin-top: 40px;">ServeSync simplifies the process of finding meaningful volunteer work. Whether you're looking to enhance your resume, gain experience, or make a difference in your community, we help you connect with causes that matter to you. Browse opportunities, sign up, and start volunteering in just a few clicks.</p>
+        </center></section>
+
+    <!-- Tutorial Section -->
+    <section id="tutorial" class="tutorial-container">
+        <!-- First Tutorial Pair -->
+        <div class="tutorial-item">
+            <center><img src="main/acc.png" alt="Tutorial 1" style="border-radius: 10px; width: auto; height: 220px;"></center>
+            <div class="text">
+                <div class="square"><i style="font-size: 20px;" class="fa-solid fa-user"></i></div><br>
+                <h2 style="font-size: 30px;">Create An Account.</h2><br>
+                <p style="font-size: 20px; font-weight: 500;">Enter in your personal information to set up you account so you can serve.</p>
+            </div>
+        </div>
+    
+        <!-- Second Tutorial Pair -->
+        <div class="tutorial-item">
+            <div class="text">
+                <div class="square2"><i style="font-size: 20px;" class="fa-solid fa-pen-to-square"></i></div><br>
+                <h2 style="font-size: 30px;">Customize Your Profile.</h2><br>
+                <p style="font-size: 20px; font-weight: 500;">Enter in any other extra details about yourself you'd like organizations to know.</p>
+            </div>
+            <center><img src="main/c.png"  alt="Tutorial 2" style="border-radius: 10px; width: auto; height: 200px;"></center>
+            
+        </div>
+         <!-- First Tutorial Pair -->
+         <div class="tutorial-item">
+            <img src="main/n.png" alt="Tutorial 1" style="border-radius: 10px; width: auto; height: 220px;">
+            <div class="text">
+                <div class="square3">
+                    <i style="font-size: 20px;" class="fa-solid fa-magnifying-glass"></i></div><br>
+                <h2 style="font-size: 30px;">Find Opportunities Near You.</h2><br>
+                <p style="font-size: 20px; font-weight: 500;">Search through our wide variety of opportunities using filters to make it as convineint as possible.</p>
+            </div>
+        </div>
+    
+        <!-- Second Tutorial Pair -->
+        <div class="tutorial-item">
+            <div class="text">
+                <div class="square"><i style="font-size: 20px;" class="fa-solid fa-check"></i></div><br>
+                <h2 style="font-size: 30px;">Start Serving.</h2><br>
+                <p style="font-size: 20px; font-weight: 500;">Go out in your community and become a contributing member to help work towards something great!</p>
+            </div>
+            <img src="main/m.png"  alt="Tutorial 2" style="border-radius: 10px; width: auto; height: 220px;">
+            
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <p class="c">Frequently Asked Questions</p>
+        <h2>Addressing Common Inquiries</h2>
+        <center><div class="faq-item">
+            <h3 class="faq-question">How does ServeSync work?</h3>
+            <p class="faq-answer"><br>ServeSync allows students to easily find and sign up for volunteering opportunities in their area of interest, providing a streamlined process for both volunteers and organizations.<br> <span style="color: transparent;">c</span></p>
+        </div>
+        <div class="faq-item">
+            <h3 class="faq-question">Is ServeSync free to use?</h3>
+            <p class="faq-answer"><br>Yes! ServeSync is completely free for students. We are dedicated to providing accessible volunteer opportunities for everyone.<br> <span style="color: transparent;">c</span></p>
+        </div>
+        <div class="faq-item">
+            <h3 class="faq-question">How do I sign up for volunteering?</h3>
+            <p class="faq-answer"><br>Simply create an account on ServeSync, browse the available opportunities, and sign up for the ones that interest you!<br> <span style="color: transparent;">c</span></p>
+        </div>
+        <div class="faq-item">
+            <h3 class="faq-question">Can I track my volunteer hours?</h3>
+            <p class="faq-answer"><br>Yes! ServeSync keeps track of your volunteer hours and offers certificates for your contributions.<br> <span style="color: transparent;">c</span></p>
+        </div></center>
+    </section>
+
+<!-- Sign Up Section --> 
+<section id="signnn">
+    
+   <center> <iframe
+      id="JotFormIFrame-243368211978162"
+      title="Join the Waitlist"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      allow="geolocation; microphone; camera; fullscreen"
+      src="https://form.jotform.com/243368211978162"
+      frameborder="0"
+      style="min-width:80%;max-width:100%;height:539px;border:none;"
+      scrolling="no"
+    >
+    </iframe>
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+    <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-243368211978162']", "https://form.jotform.com/")</script>
+</center>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <!-- About Section -->
+            <div class="footer-section about">
+                <center><h2>About</h2>
+                <p style="width: 80%;">
+                    This platform is designed to provide curated resources and extensive problemsets to enhance your learning journey. From beginner-friendly guides to advanced problem-solving, we've got you covered.
+                </p></center>
+            </div>
+            <!-- Contact Section -->
+            <div class="footer-section contact">
+            <center><h2>Contact</h2>
+                <p>Email: <a href="mailto:servesyncinc@gmail.com">servesyncinc@gmail.com</a></p>
+                <p>Social Media: <a target="_blank" href="https://www.instagram.com/serve.sync/">Instagram</a></p>
+                <p>Location: Louisville, Kentucky</p></center>
+            </div>
+            <!-- Quick Links Section -->
+            <div class="footer-section quick-links">
+            <center><h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#volunteering">About</a></li>
+                    <li><a href="#tutorial">Tutorial</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul></center>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ServeSync. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script>
+       
+
+        document.addEventListener("DOMContentLoaded", function() {
+    const faqQuestions = document.querySelectorAll('.faq-question');
+    
+    faqQuestions.forEach(question => {
+        question.addEventListener('click', function() {
+            const answer = this.nextElementSibling;
+            
+            if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+            } else {
+                answer.style.display = 'block';
+            }
+        });
+    });
+});
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      var typed = new Typed(".auto-type",{
+        strings : ["Convenient.", "Simple.", "Easy.","Convenient.", "Simple.", "Easy.","Convenient.", "Simple.", "Easy.","Convenient.", "Simple.", "Easy.","Convenient.", "Simple.", "Easy.","Convenient.", "Simple.", "Easy."],
+        typeSpeed : 150,
+        backSpeed : 150,
+        looped : true
+      })
+
+      function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+
+
+    </script>
+</body>
+</html>
+
+
+<style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+    * {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+    }
+
+    html {
+  scroll-behavior: smooth;
+}
+
+    body {
+      font-family: "Montserrat", sans-serif;
+      background-color: #121212;
+    }
+    .square {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(-45deg, #00d4d4, #00e8e8);
+    border-radius: 10px;
+    border:none;
+    text-align: center;
+	padding: 15px 0px;
+}
+.square2 {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(-45deg, #7f2182, #b835a6);
+    border-radius: 8px;
+    border:none;
+    text-align: center;
+	padding: 15px 0px;
+}
+.square3 {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(-45deg, #8b8b8b, #a1a1a1);
+    border-radius: 8px;
+    border:none;
+    text-align: center;
+	padding: 15px 0px;
+}
+
+
+
+    nav {
+      background: #111727;
+      height: 80px;
+      width: 100%;
+    }
+    label.logo {
+      color: #e6e7e7;
+      font-size: 30px;
+      line-height: 80px;
+      padding: 0 100px;
+      font-weight: bold;
+    }
+    nav ul {
+      float: right;
+      margin-right: 40px;
+    }
+    nav ul li {
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px;
+    }
+    nav ul li a {
+      color: white;
+      font-size: 17px;
+      font-weight: 500;
+      padding: 0px 0px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+    
+    p.p {
+        color: #fff;
+        font-size: 17px;
+        margin-right: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    p.p::after {
+        content: '';
+        position: absolute;
+        height: 5px;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        background: white;
+        transition: width .2s;
+    }
+    
+    p.p:hover::after {
+        width: 100%;
+    }
+    .checkbtn {
+      font-size: 22px;
+      color: white;
+      float: right;
+      line-height: 80px;
+      margin-right: 30px;
+      cursor: pointer;
+      display: none;
+    }
+    #check {
+      display: none;
+    }
+    @media (max-width: 1050px) {
+      label.logo {
+        padding-left: 30px;
+      }
+      nav ul li a {
+        font-size: 16px;
+      }
+    }
+    /* Responsive media query code for small screen */
+    @media (max-width: 890px) {
+        .navpart{
+            display: none;
+        }
+    }
+    
+    /* Hero Section */
+    #hero {
+        color: white;
+        text-align: center;
+        padding: 120px 70px;
+    }
+    
+    #hero h1 {
+        font-size: 90px;
+        margin-bottom: 20px;
+    }
+    
+    #hero p span{
+        background-image: linear-gradient(to right, #13bae3, #a90ddd); /* Gradient colors */
+        -webkit-background-clip: text; /* Makes the background apply only to text */
+        color: transparent;
+    }
+    
+    
+    #hero p {
+        font-size: 29px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    
+    #hero button {
+        background-color: #ffffff;
+        color: black;
+        padding: 20px 30px;
+        border-radius: 10px;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        background: rgb(255, 255, 255);
+        top: 100px;
+        position: relative;
+        margin-bottom: 100px;
+    }
+
+    #hero button::after {
+            content: "";
+            position: absolute;
+            inset: -.05em;
+            background: linear-gradient(to bottom right,
+            #13bae3, #a90ddd);
+            filter: blur(2em);
+            z-index: -1;
+        }
+    
+    /* Volunteering Section */
+    #volunteering {
+        text-align: center;
+        padding: 40px 20px;
+        background: #111727;
+    }
+    
+    #volunteering h2 {
+        font-size: 50px;
+        color: white;
+        margin-bottom: 20px;
+    }
+    
+    #volunteering span {
+        padding: 5px;
+        background-color: #3498db;
+    }
+    
+    #volunteering p {
+        font-size: 23px;
+        font-weight: 500;
+        margin-top: 20px;
+        color: white;
+        width: 60%;
+        margin-bottom: 90px;
+    }
+    
+    /* Tutorial Section */
+    /* Base layout: image and text side by side */
+    .tutorial-container {
+        padding: 50px 70px;
+        display: flex;
+        flex-direction: column; /* Stack tutorial pairs vertically */
+        gap: 40px;
+        background-color: #111727;
+    }
+    
+    .tutorial-item {
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center; /* Vertically center the content */
+        justify-content: space-between;
+        gap: 20px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .tutorial-item img {
+        width: 50%;  /* Image takes up 50% of the width */
+        height: auto;
+    }
+    
+    .tutorial-item .text {
+        width: 50%;  /* Text section takes up 50% of the width */
+        padding: 20px;
+        color: white;
+    }
+
+#signnn {
+    margin-top: 180px;
+    margin-bottom: -50px;
+}
+
+
+    
+    /* Mobile-friendly layout: stack image and text */
+    @media (max-width: 768px) {
+        #hero h1{
+            font-size: 40px;
+        }
+        #hero p{
+            font-size: 20px;
+        }
+        .tutorial-item {
+            flex-direction: column;  /* Stack image and text vertically */
+            align-items: center;  /* Center them horizontally */
+        }
+    
+        .tutorial-item img {
+            display: none;
+        }
+    
+        .tutorial-item .text {
+            width: 100%;  /* Text takes up full width */
+            padding: 10px;  /* Reduce padding on smaller screens */
+        }
+    }
+    
+    
+    /* FAQ Section */
+    #faq {
+        background-color: transparent;
+        padding: 40px 20px;
+        margin-bottom: 50px;
+
+    }
+    
+    #faq p.c {
+        margin-top: 20px;
+        font-size: 24px;
+        text-align: center;
+        font-weight: 500;
+        background-image: linear-gradient(to right, #13bae3, #a90ddd); /* Gradient colors */
+        -webkit-background-clip: text; /* Makes the background apply only to text */
+        color: transparent;
+    }
+    #faq h2 {
+        margin-top: 20px;
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 80px;
+        color: white;
+    }
+    
+    .faq-item {
+        margin-bottom: -1px;
+        width: 50%;
+
+    }
+
+    
+    .faq-question {
+        font-size: 22px;
+        cursor: pointer;
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+        padding: 20px 30px;
+        position: relative;
+
+        
+    }
+    .faq-question::after{
+        content: "";
+            position: absolute;
+            inset: -.625em;
+            background: linear-gradient(to bottom right,
+            #13bae3, #a90ddd);
+            filter: blur(3em);
+            z-index: -1;
+    }
+    .faq-answer::after{
+        content: "";
+            position: absolute;
+            inset: -.625em;
+            background: linear-gradient(to bottom right,
+            #13bae3, #a90ddd);
+            filter: blur(3em);
+            z-index: -1;
+    }
+    
+    .faq-answer {
+        position: relative;
+        margin-top: -1px;
+        display: none;
+        font-size: 18px;
+        padding: 10px 20px;
+        background-color: #ecf0f1;
+        border: 2px solid black;
+    }
+    
+    /* Footer Section */
+    footer {
+    background-color: #0b1120;
+    color: #d4d4d4;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-top: none;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 2px solid #6a11cb;
+    display: inline-block;
+}
+
+.footer-section p {
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.footer-section a {
+    color: #75aef0;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* Quick Links */
+.footer-section.quick-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section.quick-links li {
+    margin: 5px 0;
+}
+
+.footer-section.quick-links a {
+    color: #75aef0;
+    text-decoration: none;
+}
+
+.footer-section.quick-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    padding-top: 10px;
+    color: #9d9d9d;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+}
+</style>
+</body>
